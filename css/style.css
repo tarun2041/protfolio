@@ -1,0 +1,20 @@
+:root{
+  --primary: #0d6efd;
+  --muted: #6c757d;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+body{
+  background: #f8f9fa;
+  color: #222;
+  scroll-behavior: smooth;
+}
+header#home{
+  background: linear-gradient(90deg, rgba(13,110,253,0.06), rgba(13,110,253,0.02));
+  margin-bottom: 0;
+}
+.navbar-brand span{ color: var(--primary); }
+.card-img-top{ object-fit: cover; height: 180px; }
+section{ padding-top: 3.5rem; padding-bottom: 3.5rem; }
+@media(min-width:992px){
+  header#home .display-5{ font-size: 2.8rem; }
+}
